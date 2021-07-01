@@ -1,4 +1,33 @@
-.container {
-    display: flex;
-    justify-content: flex-start;
+html {
+  font-family: sans-serif;
+  margin: 25px 25px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 100px;
+}
+
+article {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+section {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+  line-height: 100px;
+  margin: 0;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
