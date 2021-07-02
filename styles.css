@@ -1,6 +1,5 @@
 html {
   font-family: sans-serif;
-  margin: 25px 25px;
 }
 
 body {
@@ -8,26 +7,17 @@ body {
 }
 
 header {
+
   height: 100px;
 }
 
-article {
-  border-bottom: 1px solid black;
-  width: 100%;
-}
-
-section {
-  display: flex;
-}
-
-.center {
+h1 {
   text-align: center;
   line-height: 100px;
   margin: 0;
 }
 
-.flex-container{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+article {
+  padding: 10px;
+  margin: 10px;
 }
