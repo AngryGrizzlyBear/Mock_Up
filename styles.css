@@ -21,3 +21,14 @@ article {
   padding: 10px;
   margin: 10px;
 }
+
+.primary-nav {
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    justify-content:flex-end;
+}
+
+.left {
+margin-right: auto;
+}
